@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="bg-[#effafa] min-h-screen flex flex-col gap-5 items-center text-base">
       <Header />
-      <JobCard />
-      <JobCard />
-      <JobCard />
+      <div className="flex flex-col gap-5">
+        <JobCard />
+        <JobCard />
+        <JobCard />
+      </div>
     </div>
   );
 }
