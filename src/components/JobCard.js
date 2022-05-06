@@ -9,8 +9,8 @@ function JobCard(props) {
         <div className="flex flex-col gap-2 w-full">
           <div className="flex items-center gap-3">
             <div className="text-[#5ba4a4]">{props.company}</div>
-            {props.new == "true" ? <New /> : null}
-            {props.featured == "true" ? <Featured /> : null}
+            {props.new == true ? <New /> : null}
+            {props.featured == true ? <Featured /> : null}
           </div>
           <div className="font-bold text-lg">{props.position}</div>
           <div className="text-[#7C8F8F]">
